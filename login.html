@@ -13,14 +13,14 @@
 <body>
   
   <div class="container-fluid login-container">
-    <div class="row">
-      <div class="col-md-6 bg-primary text-white bg-img">
-        <div class="d-flex flex-column justify-content-center align-items-center h-100">
-            <h1 class="text-center">Welcome to Transcendence</h1>
-            <p class="text-center">A ping pong game!</p>
+    <div class="row  bg-white">
+      <div class="col-md-6 bg-img">
+        <div class="d-flex flex-column justify-content-center h-100">
+          <h1>Welcome to Transcendence</h1>
+          <p>A ping pong game!</p>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 form-div">
         <div class="login-form">
           <h3 class="text-center mb-4">Login</h3>
           <form>
@@ -35,9 +35,13 @@
             <button type="submit" class="btn btn-primary btn-block">Login</button>
           </form>
           <div class="text-center mt-3">
-            <button class="btn btn-danger">Connect with Google</button>
-            <button class="btn btn-info">Connect with 42 Intra</button>
-          </div>
+			<button class="btn">
+				<img src="background.avif" class="btn-google"/>
+			</button>
+			<button class="btn">
+				<img src="background.avif" class="btn-intra"/>
+			</button>
+		</div>
         </div>
       </div>
     </div>
