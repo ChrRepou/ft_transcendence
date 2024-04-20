@@ -1,0 +1,31 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .login-form {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 8px;
+  }
+
+  .login-image {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  @media (max-width: 768px) {
+    .login-container {
+      flex-direction: column;
+    }
+
+    .login-form {
+      margin-top: 20px;
+    }
+  }
+
+.bg-img {
+    background-image: url('https://images.unsplash.com/photo-1557683316-973673baf926');
+  }
